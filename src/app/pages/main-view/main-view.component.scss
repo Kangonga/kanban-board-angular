@@ -1,0 +1,66 @@
+#Main__component-root {
+    background: url(../../../assets/images/background.jpg);
+    min-height: 100vh;
+    min-width: max-content;
+    background-position: center;
+    background-size: cover;
+    overflow-x: scroll;
+}
+
+.Main__component-nav-project-name {
+    width: 100%;
+    background-color: rgb(12, 8, 66);
+    color: white;
+    height: 8vh;
+    font-size: 2rem;
+    padding: 0.5rem 2rem 0;
+}
+.Main__component-nav-board-name{
+    width: 100%;
+    background-color: rgba(221, 209, 209,0.8);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    // color: green;
+    font-weight: 800;
+}
+.Main__component-board-wrapper {
+    outline: 2px solid black;
+    padding: 1rem;
+    min-width: max-content;
+}
+.Main__component-board-columns {
+    outline: 2px solid rebeccapurple;
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+}
+.board-column {
+    outline: 2px solid red;
+    width: 18rem;
+    background-color: rgba(241, 231, 207, 0.7);
+    height: max-content;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: max-content;
+}
+.task {
+    display: flex;
+    padding: .5rem;
+    background-color: white;
+    border-radius:4px;
+    box-shadow: 0 3px 3px 0px rgba(32, 30, 30,.5);
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    outline: 2px solid green;
+    height: 80%;
+    gap: 1rem;
+    padding: 1rem;
+}
